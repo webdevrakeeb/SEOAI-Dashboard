@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!-- Meta setup -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="">
+    <meta name="decription" content="">
+    <meta name="designer" content="">
+
+    <!-- Title -->
+    <title>Web Reports</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="images/icons/favicon.ico" />
+
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- plugin css -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.11.1/css/flag-icons.min.css'>
+    <link rel="stylesheet" href="css/lang.css">
+
+    <!-- Include Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <!-- Main StyleSheet -->
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css" />
+
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- =============================>>
+	  		Main Content Start
+	<<============================== -->
+    <main>
+
+        <div class="dashboard-main-wrapper">
+            <div class="row g-0">
+                <!-- ========== Main Left Sidebar Start ========== -->
+                <div class="col-4 main-left-col d-none d-lg-block">
+                    <div class="main-left-sidebar-area">
+                        <!-- Site Logo -->
+                        <div class="site-logo">
+                            <a href="#"><img src="images/logo/site-logo.png" alt="logo"></a>
+                        </div>
+                        <!--- Side Navigation -->
+                        <div class="main-left-navigation">
+                            <ul>
+                                <li><a href="#"><img src="images/icons/dashboard-icon.svg" alt="">Dashboard</a></li>
+                                <li><a href="#" class="active"><img src="images/icons/reports-icon.svg" alt="">Reports</a></li>
+                                <li><a href="#"><img src="images/icons/keyword-research-icon.svg" alt="">Keyword Research</a></li>
+                                <li><a href="#"><img src="images/icons/serps-icon.svg" alt="">SERPs www</a></li>
+                                <li><a href="#"><img src="images/icons/serps2-icon.svg" alt="">SERPs Evolution</a></li>
+                                <li><a href="#"><img src="images/icons/backlinks-icon.svg" alt="">Web Backlinks</a></li>
+                                <li><a href="#"><img src="images/icons/authority-icon.png" alt="">Web Authority</a></li>
+                                <li><a href="#"><img src="images/icons/analytics-icon.svg" alt="">Analytics</a></li>
+                                <li><a href="#"><img src="images/icons/tools-icon.svg" alt="">Tools</a></li>
+                                <li><a href="#"><img src="images/icons/chat.svg" alt="">AI Chat</a></li>
+                                <li><a href="#"><img src="images/icons/writer-icon.svg" alt="">Super AI Writer</a></li>
+                                <li><a href="#"><img src="images/icons/writer2-icon.svg" alt="">Fast AI Writer</a></li>
+                                <li><a href="#"><img src="images/icons/images-icon.svg" alt="">AI Images</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- ========== Main Left Sidebar End ========== -->
+
+                <!-- ========== Sidebar Offcanvas  Start ========== -->
+                <div class="offcanvas offcanvas-start sidebar-offcanvas" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <!-- Site Logo -->
+                        <div class="site-logo">
+                            <a href="#"><img src="images/logo/site-logo.png" alt="logo"></a>
+                        </div>
+                        <button data-bs-dismiss="offcanvas" aria-label="Close">x</button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="main-left-sidebar-area">
+                            <!--- Side Navigation -->
+                            <div class="main-left-navigation">
+                                <ul>
+                                    <li><a href="#"><img src="images/icons/dashboard-icon.svg" alt="">Dashboard</a></li>
+                                    <li><a href="#" class="active"><img src="images/icons/reports-icon.svg" alt="">Reports</a></li>
+                                    <li><a href="#"><img src="images/icons/keyword-research-icon.svg" alt="">Keyword Research</a></li>
+                                    <li><a href="#"><img src="images/icons/serps-icon.svg" alt="">SERPs www</a></li>
+                                    <li><a href="#"><img src="images/icons/serps2-icon.svg" alt="">SERPs Evolution</a></li>
+                                    <li><a href="#"><img src="images/icons/backlinks-icon.svg" alt="">Web Backlinks</a></li>
+                                    <li><a href="#"><img src="images/icons/authority-icon.png" alt="">Web Authority</a></li>
+                                    <li><a href="#"><img src="images/icons/analytics-icon.svg" alt="">Analytics</a></li>
+                                    <li><a href="#"><img src="images/icons/tools-icon.svg" alt="">Tools</a></li>
+                                    <li><a href="#"><img src="images/icons/chat.svg" alt="">AI Chat</a></li>
+                                    <li><a href="#"><img src="images/icons/writer-icon.svg" alt="">Super AI Writer</a></li>
+                                    <li><a href="#"><img src="images/icons/writer2-icon.svg" alt="">Fast AI Writer</a></li>
+                                    <li><a href="#"><img src="images/icons/images-icon.svg" alt="">AI Images</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ========== Sidebar Offcanvas End ========== -->
+
+                <!-- ========== Main right Side Start ========== -->
+                <div class="col-8 main-right-col">
+                    <div class="main-right-side-area">
+                        <!-- Right Side Top Header -->
+                        <div class="right-side-top-header">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-6">
+                                    <div class="right-top-header-title">
+                                        <div class="hamburger d-flex d-lg-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                        <h1>Web Reports</h1>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="right-top-header-profile">
+                                        <ul>
+                                            <li>
+                                                <div class="js d-md-block d-none">
+                                                    <div class="language-picker js-language-picker" data-trigger-class="btn-lang btn--subtle">
+                                                        <form action="" class="language-picker__form">
+                                                            <label for="language-picker-select"></label>
+                                                            <select name="language-picker-select" id="language-picker-select">
+                                                                <option lang="de" value="deutsch">Deutsch</option>
+                                                                <option lang="en" value="english" selected>English</option>
+                                                                <option lang="fr" value="francais">Français</option>
+                                                                <option lang="it" value="italiano">Italiano</option>
+                                                            </select>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="hide">
+                                                <a href="#">
+													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M12 17C16.9758 17 19.2777 16.3609 19.5 13.7957C19.5 11.2323 17.8951 11.3972 17.8951 8.25198C17.8951 5.79524 15.5693 3 12 3C8.43068 3 6.10487 5.79524 6.10487 8.25198C6.10487 11.3972 4.5 11.2323 4.5 13.7957C4.72319 16.3706 7.02509 17 12 17Z" stroke="#848382" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+														<path d="M14 20C12.8794 21.3255 11.1313 21.3412 10 20" stroke="#848382" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+														<path d="M21 4.91669C21 6.15933 19.9926 7.16669 18.75 7.16669C17.5074 7.16669 16.5 6.15933 16.5 4.91669C16.5 3.67405 17.5074 2.66669 18.75 2.66669C19.9926 2.66669 21 3.67405 21 4.91669Z" fill="#FA3232" stroke="#F8F8F8"/>
+													</svg>
+												</a>
+                                                <div class="notification-overlay-area">
+                                                    <div class="notifi-overlay-header">
+                                                        <h5>Notifications</h5>
+                                                        <span>5 new</span>
+                                                    </div>
+                                                    <div class="notifi-overlay-content">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="notifi-overlay-icon">
+                                                                    <img src="images/icons/dashboard-icon.svg" alt="">
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="notifi-overlay-text">
+                                                                    <div>
+                                                                        <h4>Lorem ipsum.</h4>
+                                                                        <span>9:30 AM</span>
+                                                                    </div>
+                                                                    <p>Lorem ipsum dolor sit amet.</p>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="notifi-overlay-icon">
+                                                                    <img src="images/icons/dashboard-icon.svg" alt="">
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="notifi-overlay-text">
+                                                                    <div>
+                                                                        <h4>Lorem ipsum.</h4>
+                                                                        <span>9:30 AM</span>
+                                                                    </div>
+                                                                    <p>Lorem ipsum dolor sit amet.</p>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="notifi-overlay-icon">
+                                                                    <img src="images/icons/dashboard-icon.svg" alt="">
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="notifi-overlay-text">
+                                                                    <div>
+                                                                        <h4>Lorem ipsum.</h4>
+                                                                        <span>9:30 AM</span>
+                                                                    </div>
+                                                                    <p>Lorem ipsum dolor sit amet.</p>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="notifi-overlay-icon">
+                                                                    <img src="images/icons/dashboard-icon.svg" alt="">
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="notifi-overlay-text">
+                                                                    <div>
+                                                                        <h4>Lorem ipsum.</h4>
+                                                                        <span>9:30 AM</span>
+                                                                    </div>
+                                                                    <p>Lorem ipsum dolor sit amet.</p>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="notifi-overlay-icon">
+                                                                    <img src="images/icons/dashboard-icon.svg" alt="">
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="notifi-overlay-text">
+                                                                    <div>
+                                                                        <h4>Lorem ipsum.</h4>
+                                                                        <span>9:30 AM</span>
+                                                                    </div>
+                                                                    <p>Lorem ipsum dolor sit amet.</p>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="notifi-overlay-icon">
+                                                                    <img src="images/icons/dashboard-icon.svg" alt="">
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="notifi-overlay-text">
+                                                                    <div>
+                                                                        <h4>Lorem ipsum.</h4>
+                                                                        <span>9:30 AM</span>
+                                                                    </div>
+                                                                    <p>Lorem ipsum dolor sit amet.</p>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <button>See All Notifications</button>
+                                                </div>
+                                            </li>
+                                            <li class="hide">
+                                                <a href="#">
+													<img src="images/porfile-image.png" alt="">
+													<div class="profile-info">
+														<h4>Musfiq</h4>
+														<p>Admin</p>
+													</div>
+												</a>
+                                                <div class="notification-overlay-area profile-overlay-area">
+                                                    <div class="profile-overlay-header">
+                                                        <img src="images/porfile-image.png" alt="">
+                                                        <div class="poh-txt">
+                                                            <h5>Musfiq Rahman <span>Pro</span></h5>
+                                                            <p>Admin</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="profile-overlay-content">
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa-solid fa-user"></i> My Profile</a></li>
+                                                            <li><a href="#"><i class="fa-solid fa-bell"></i> My Subscription</a></li>
+                                                            <li><a href="#"><i class="fa-solid fa-gear"></i> Account Settings</a></li>
+                                                            <li><a href="#"><i class="fa-solid fa-file-invoice"></i> My Invoice</a></li>
+                                                            <li><a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Sign Out</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-side-top-alert">
+                            <p> <img src="images/icons/Information-Circle.svg" alt=""> Detailed web reports on the status, performance, and analysis of websites and URLs, including traffic, conversions, and other metrics.</p>
+                        </div>
+                        <!--==== API area ======= -->
+                        <div class="get-in-touch web-reports">
+                            <div class="row g-0">
+                                <div class="col-lg-8 order-2 order-lg-1">
+                                    <div class="get-title web-reports-title">
+                                        <h2>Improve the status of your website</h2>
+                                        <p>Start moving up positions</p>
+                                    </div>
+                                    <div class="contact-form web-domain-track-form">
+                                        <form action="">
+                                            <div class="web-report-form d-flex align-items-center">
+                                                <div class="api-key web-reports-domain d-flex align-items-center">
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                            <g clip-path="url(#clip0_44_4227)">
+                                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4998 2C9.14436 2.00012 7.80863 2.32436 6.60402 2.94569C5.39941 3.56702 4.36086 4.46742 3.575 5.57175C2.78914 6.67609 2.27878 7.95235 2.08647 9.29404C1.89417 10.6357 2.02551 12.004 2.46954 13.2846C2.91357 14.5652 3.65741 15.7211 4.639 16.6557C5.62059 17.5904 6.81147 18.2768 8.11228 18.6576C9.41309 19.0384 10.7861 19.1026 12.1168 18.8449C13.4475 18.5872 14.6972 18.015 15.7618 17.176L19.4138 20.828C19.6024 21.0102 19.855 21.111 20.1172 21.1087C20.3794 21.1064 20.6302 21.0012 20.8156 20.8158C21.001 20.6304 21.1062 20.3796 21.1084 20.1174C21.1107 19.8552 21.0099 19.6026 20.8278 19.414L17.1758 15.762C18.1638 14.5086 18.7789 13.0024 18.9509 11.4157C19.1228 9.82905 18.8446 8.22602 18.148 6.79009C17.4514 5.35417 16.3646 4.14336 15.0121 3.29623C13.6595 2.44911 12.0957 1.99989 10.4998 2ZM3.99977 10.5C3.99977 8.77609 4.68458 7.12279 5.90357 5.90381C7.12256 4.68482 8.77586 4 10.4998 4C12.2237 4 13.877 4.68482 15.096 5.90381C16.3149 7.12279 16.9998 8.77609 16.9998 10.5C16.9998 12.2239 16.3149 13.8772 15.096 15.0962C13.877 16.3152 12.2237 17 10.4998 17C8.77586 17 7.12256 16.3152 5.90357 15.0962C4.68458 13.8772 3.99977 12.2239 3.99977 10.5Z" fill="#81807F"/>
+                                                            </g>
+                                                            <defs>
+                                                              <clipPath id="clip0_44_4227">
+                                                                <rect width="24" height="24" fill="white"/>
+                                                              </clipPath>
+                                                            </defs>
+                                                          </svg>
+                                                    </button>
+                                                    <input type="text" placeholder="Domain to track">
+                                                </div>
+                                                <div class="domain-track-action-btn d-flex align-items-center justify-content-around">
+                                                    <div class="domain-btn_one">
+                                                        <a href="#">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                                                <path d="M14.4316 10.36H20.5566" stroke="#0080EF" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                <path d="M7.44336 10.36L8.31836 11.235L10.9434 8.61005" stroke="#0080EF" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                <path d="M14.4316 18.5267H20.5566" stroke="#0080EF" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                <path d="M7.44336 18.5267L8.31836 19.4017L10.9434 16.7767" stroke="#0080EF" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                <path d="M10.5002 25.6667H17.5002C23.3335 25.6667 25.6668 23.3334 25.6668 17.5V10.5C25.6668 4.66671 23.3335 2.33337 17.5002 2.33337H10.5002C4.66683 2.33337 2.3335 4.66671 2.3335 10.5V17.5C2.3335 23.3334 4.66683 25.6667 10.5002 25.6667Z" stroke="#0080EF" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                                                              </svg>
+                                                        </a>
+                                                    </div>
+                                                    <div class="domain-btn_two">
+                                                        <a href="#">
+                                                            <img src="images/icons/domain-track-icon.png" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="domain-sattings-box">
+                                                    <a href="#">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                                            <path d="M15 18.625C17.002 18.625 18.625 17.002 18.625 15C18.625 12.998 17.002 11.375 15 11.375C12.998 11.375 11.375 12.998 11.375 15C11.375 17.002 12.998 18.625 15 18.625Z" stroke="#81807F" stroke-width="1.8125" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                            <path d="M2.91675 16.0632V13.9366C2.91675 12.6799 3.94383 11.6407 5.21258 11.6407C7.39966 11.6407 8.29383 10.0941 7.19425 8.197C6.56591 7.1095 6.9405 5.69575 8.04008 5.06741L10.1305 3.87116C11.0851 3.30325 12.3176 3.64158 12.8855 4.59616L13.0184 4.82575C14.1059 6.72283 15.8942 6.72283 16.9938 4.82575L17.1267 4.59616C17.6947 3.64158 18.9272 3.30325 19.8817 3.87116L21.9722 5.06741C23.0717 5.69575 23.4463 7.1095 22.818 8.197C21.7184 10.0941 22.6126 11.6407 24.7997 11.6407C26.0563 11.6407 27.0955 12.6678 27.0955 13.9366V16.0632C27.0955 17.3199 26.0684 18.3591 24.7997 18.3591C22.6126 18.3591 21.7184 19.9057 22.818 21.8028C23.4463 22.9024 23.0717 24.3041 21.9722 24.9324L19.8817 26.1287C18.9272 26.6966 17.6947 26.3582 17.1267 25.4037L16.9938 25.1741C15.9063 23.277 14.118 23.277 13.0184 25.1741L12.8855 25.4037C12.3176 26.3582 11.0851 26.6966 10.1305 26.1287L8.04008 24.9324C6.9405 24.3041 6.56591 22.8903 7.19425 21.8028C8.29383 19.9057 7.39966 18.3591 5.21258 18.3591C3.94383 18.3591 2.91675 17.3199 2.91675 16.0632Z" stroke="#81807F" stroke-width="1.8125" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                          </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="domain-track_type d-flex align-items-center">
+                                                <div class="doamin-t_private">
+                                                   <div class="private_type-s mine d-flex">
+                                                    <label>
+                                                        <input type="radio" name="radioGroup">
+                                                        <div class="type-details_s">
+                                                            <P>Private</P>
+                                                            <span>Stats accessible only by you.</span>
+                                                        </div>
+                                                    </label>
+                                                    <label>
+                                                        <input type="radio" name="radioGroup">
+                                                        <div class="type-details_s">
+                                                            <P>Public</P>
+                                                            <span>Stats accessible by anyone</span>
+                                                        </div>
+                                                    </label>
+                                                    <label>
+                                                        <input type="radio" name="radioGroup">
+                                                        <div class="type-details_s">
+                                                            <P>Password</P>
+                                                            <span>Stats accessible only by you.</span>
+                                                        </div>
+                                                    </label>
+                                                   </div>
+                                                </div>
+                                            </div>
+                                            <button class="submit-btn" type="submit">Analyze</button>
+                                        </form>
+                                        <div class="domain-try-exp">
+                                            <p>Try <a href="#">example.com</a> or <a href="#">example.com/blog/seo</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 my-auto order-1 order-lg-2">
+                                    <div class="web-report-box-img text-center">
+                                        <img src="images/web-domain-track-img.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                         <!-- footer area start -->
+                         <div class="footer">
+                            <ul>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">API</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#"><img src="images/icons/facebook.svg" alt=""></a></li>
+                                <li><a href="#"><img src="images/icons/twitter-x.svg" alt=""></a></li>
+                                <li><a href="#"><img src="images/icons/instragram.svg" alt=""></a></li>
+                                <li><a href="#"><img src="images/icons/youtube.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- ========== Main right Side Start ========== -->
+            </div>
+        </div>
+
+    </main>
+    <!-- =============================>>
+	  		Main Content Start
+	<<============================== -->
+
+    <!-- Main jQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <!-- Bootstrap.bundle Script -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- plugin Script -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js'></script>
+    <script src="js/lang.js"></script>
+    <script src="js/pie-chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Custom jQuery -->
+    <script src="js/scripts.js"></script>
+
+    <script>
+        // Bar Chart Configuration
+        const barCtx = document.getElementById('barChart').getContext('2d');
+        const barData = {
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+            datasets: [{
+                label: 'Data',
+                data: [280, 200, 180, 295, 220, 220, 200, 260, 120, 290],
+                backgroundColor: '#0080ef', // Bar fill color
+                borderWidth: 0, // Ensure borderWidth is set to 0
+                borderSkipped: false, // Ensure all borders are removed
+                borderRadius: {
+                    topLeft: 4, // Rounded top-left corner
+                    topRight: 4 // Rounded top-right corner
+                },
+                barThickness: 20 // Set the bar width
+            }]
+        };
+        const barOptions = {
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    min: 0, // Minimum value for the y-axis
+                    max: 300, // Maximum value for the y-axis
+                    ticks: {
+                        stepSize: 100, // Step size between ticks
+                        font: {
+                            size: 12, // Font size 12px
+                            weight: '400' // Font weight 400
+                        },
+                        color: '#848382' // Font color #848382
+                    },
+                    grid: {
+                        display: false // Remove horizontal grid lines
+                    },
+                    border: {
+                        display: false // Hide y-axis border
+                    }
+                },
+                x: {
+                    grid: {
+                        display: false // Remove vertical grid lines
+                    },
+                    ticks: {
+                        font: {
+                            size: 12, // Font size 12px
+                            weight: '400' // Font weight 400
+                        },
+                        color: '#848382' // Font color #848382
+                    },
+                    border: {
+                        display: false // Hide x-axis border
+                    }
+                }
+            },
+            plugins: {
+                tooltip: {
+                    enabled: true,
+                    backgroundColor: '#fff', // White background for tooltip
+                    titleColor: '#151516', // Black text for tooltip title
+                    bodyColor: '#151516', // Black text for tooltip body
+                    borderColor: '#f4f4f4', // Black border color for tooltip
+                    borderWidth: 1, // Border width for tooltip
+                    callbacks: {
+                        label: function(tooltipItem) {
+                            return `Value: ${tooltipItem.raw}`; // Custom label content
+                        }
+                    },
+                    padding: 8 // Padding around tooltip text
+                },
+                legend: {
+                    display: false // Hide legend if not needed
+                }
+            },
+            elements: {
+                bar: {
+                    borderWidth: 0, // Ensure no borders
+                    borderSkipped: false, // Ensure all borders are removed
+                    borderRadius: 4, // Ensure rounding for corners
+                }
+            },
+            maintainAspectRatio: false, // Disable aspect ratio to fit custom size
+        };
+        const barChart = new Chart(barCtx, {
+            type: 'bar',
+            data: barData,
+            options: barOptions
+        });
+    </script>
+
+</body>
+
+</html>
